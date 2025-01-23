@@ -1,0 +1,1 @@
+This repository contains a simple shell script that demonstrates a race condition. The script creates two files and then uses two background processes to write to them simultaneously. Because of the race condition, the final content of the files is unpredictable and might not be what you expect. The solution demonstrates a way to avoid the race condition using locks.
